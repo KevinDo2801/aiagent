@@ -98,7 +98,7 @@ def chat():
         
         # Get response from OpenAI (using your original logic)
         response = client.chat.completions.create(
-            model="gpt-4o-mini",  # Using a more standard model name
+            model="gpt-4.1-nano",  # Using a more standard model name
             messages=conversation_sessions[session_id],
             temperature=0.7,
             max_tokens=200
